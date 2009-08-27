@@ -259,8 +259,10 @@ namespace SubSonic
             QueryCommand cmd = Provider != null ? new QueryCommand(sql, Provider.Name) : new QueryCommand(sql);
 
             //add in the commands
-            foreach(Setting s in SetStatements)
-                cmd.Parameters.Add(s.ParameterName, s.Value, s.DataType);
+            foreach (Setting s in SetStatements)
+            {
+              if (!s.IsExpression) cmd.Parameters.Add(s.ParameterName, s.Value, s.DataType);
+            }
 
             //set the contstraints
             SetConstraintParams(cmd);

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SubSonic">
+</Property><Property Name="Solution File" Value="D:\Projects\--Git--\Subsonic 2.2\SubSonic-2.0\SubSonic.sln">
+</Property><Property Name="Date" Value="Wednesday, 29 June 2011">
+</Property><Property Name="Time" Value="0:37 a.m.">
+</Property></Properties><Event ErrorLevel="1" Project="SubSonic" Source="SubSonic\SubSonic.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="SubSonic" Source="SubSonic\SubSonic.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SubSonic" Source="SubSonic\SubSonic.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="SubSonic.SubCommander" Source="SubCommander\SubSonic.SubCommander.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="SubSonic.SubCommander" Source="SubCommander\SubSonic.SubCommander.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SubSonic.SubCommander" Source="SubCommander\SubSonic.SubCommander.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SubSonic.Tests" Source="SubSonic.Tests\SubSonic.Tests.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SubSonic.Tests" Source="SubSonic.Tests\SubSonic.Tests.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="SubSonic.Migrations" Source="SubSonic.Migrations\SubSonic.Migrations.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="SubSonic.Migrations" Source="SubSonic.Migrations\SubSonic.Migrations.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SubSonic.Migrations" Source="SubSonic.Migrations\SubSonic.Migrations.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="SubSonic.SubStage" Source="SubStage\SubSonic.SubStage.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="SubSonic.SubStage" Source="SubStage\SubSonic.SubStage.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SubSonic.SubStage" Source="SubStage\SubSonic.SubStage.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SubSonic.SubStage" Source="SubStage\SubSonic.SubStage.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SubSonic" Source="SubSonic\SubSonic.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SubSonic" Source="SubSonic\SubSonic.csproj" Description="The following Code Analysis rules were removed from the project: Microsoft.Rules.Managed.CA2209. They are obsolete in the current version of Visual Studio.">
+</Event><Event ErrorLevel="0" Project="SubSonic" Source="SubSonic\SubSonic.csproj" Description="Created rule set file &quot;D:\Projects\--Git--\Subsonic 2.2\SubSonic-2.0\SubSonic\Migrated rules for SubSonic.ruleset&quot; for the &quot;Debug (Any CPU)&quot; configuration.">
+</Event><Event ErrorLevel="0" Project="SubSonic.Migrations" Source="SubSonic.Migrations\SubSonic.Migrations.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SubSonic.Tests" Source="SubSonic.Tests\SubSonic.Tests.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SubSonic.SubCommander" Source="SubCommander\SubSonic.SubCommander.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="" Source="SubSonic.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SubSonic.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SubSonic" Source="SubSonic\SubSonic.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SubSonic.SubCommander" Source="SubCommander\SubSonic.SubCommander.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SubSonic.Tests" Source="SubSonic.Tests\SubSonic.Tests.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SubSonic.Migrations" Source="SubSonic.Migrations\SubSonic.Migrations.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SubSonic.SubStage" Source="SubStage\SubSonic.SubStage.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

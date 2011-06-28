@@ -270,6 +270,58 @@ namespace SubSonic
             return c;
         }
 
+        /// <summary>
+        /// Ors or Wheres the expression.
+        /// </summary>
+        /// <param name="columnName">Name of the column.</param>
+        /// <returns></returns>
+        public Constraint OrWhereExpression(string columnName)
+        {
+          if (HasWhere)
+            return OrExpression(columnName);
+          else
+            return WhereExpression(columnName);
+        }
+
+        /// <summary>
+        /// Ors or Wheres the specified column name.
+        /// </summary>
+        /// <param name="columnName">Name of the column.</param>
+        /// <returns></returns>
+        public Constraint OrWhere(string columnName)
+        {
+          if (HasWhere)
+            return Or(columnName);
+          else
+            return Where(columnName);
+        }
+
+        /// <summary>
+        /// Ors or Wheres the specified column.
+        /// </summary>
+        /// <param name="column">The column.</param>
+        /// <returns></returns>
+        public Constraint OrWhere(TableSchema.TableColumn column)
+        {
+          if (HasWhere)
+            return Or(column);
+          else
+            return Where(column);
+        }
+
+        /// <summary>
+        /// Ors or Wheres the specified agg.
+        /// </summary>
+        /// <param name="aggregate">The aggregate.</param>
+        /// <returns></returns>
+        public Constraint OrWhere(Aggregate aggregate)
+        {
+          if (HasWhere)
+            return Or(aggregate);
+          else
+            return Where(aggregate);
+        }
+
         #endregion
 
 
@@ -332,6 +384,58 @@ namespace SubSonic
                                    IsAggregate = true
                                };
             return c;
+        }
+
+        /// <summary>
+        /// Ands or Wheres the expression.
+        /// </summary>
+        /// <param name="columnName">Name of the column.</param>
+        /// <returns></returns>
+        public Constraint AndWhereExpression(string columnName)
+        {
+          if (HasWhere) 
+            return AndExpression(columnName);
+          else
+            return WhereExpression(columnName);
+        }
+
+        /// <summary>
+        /// Ands or Wheres the specified column name.
+        /// </summary>
+        /// <param name="columnName">Name of the column.</param>
+        /// <returns></returns>
+        public Constraint AndWhere(string columnName)
+        {
+          if (HasWhere)
+            return And(columnName);
+          else
+            return Where(columnName);
+        }
+
+        /// <summary>
+        /// Ands or Wheres the specified column.
+        /// </summary>
+        /// <param name="column">The column.</param>
+        /// <returns></returns>
+        public Constraint AndWhere(TableSchema.TableColumn column)
+        {
+          if (HasWhere)
+            return And(column);
+          else
+            return Where(column);
+        }
+
+        /// <summary>
+        /// Ands or Wheres the specified agg.
+        /// </summary>
+        /// <param name="aggregate">The aggregate.</param>
+        /// <returns></returns>
+        public Constraint AndWhere(Aggregate aggregate)
+        {
+          if (HasWhere)
+            return And(aggregate);
+          else
+            return Where(aggregate);
         }
 
         #endregion
@@ -1483,7 +1587,7 @@ namespace SubSonic
 
                 QueryCommand qry = new QueryCommand(strSQL.ToString(), table.Provider.Name);
 
-				SetConstraintParams(qry);
+        SetConstraintParams(qry);
                 //foreach(Where where in wheres)
                 //    qry.AddParameter(where.ParameterName, where.ParameterValue, where.DbType);
 
